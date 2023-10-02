@@ -1,0 +1,11 @@
+@import "./variable.scss";
+
+.app {
+  background-color: $dark-color;
+  color: $text-color;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
