@@ -14,7 +14,7 @@ const TotalUser = () => {
         <div className="left">
           <span>35.792</span>
           <Link to="/" className="link">
-            View All
+            View Allaaaaaaaaaaaaaaaa
           </Link>
         </div>
         <div className="right">
