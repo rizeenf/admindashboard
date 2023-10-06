@@ -1,0 +1,32 @@
+@import "../../variable.scss";
+
+.contentContainer {
+  width: 100%;
+  padding: 10px;
+
+  .home {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(170px, auto);
+
+    .box {
+      padding: 20px;
+      border: 1px solid $second-dark-color;
+      border-radius: 5px;
+    }
+
+    .box1 {
+      grid-row: span 3;
+      grid-column: span 1;
+    }
+    .box4 {
+      grid-row: span 3;
+      grid-column: span 1;
+    }
+    .box7 {
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+  }
+}

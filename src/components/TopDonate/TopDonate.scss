@@ -1,0 +1,66 @@
+@import "../../variable.scss";
+
+.topDonate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .listDonator {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .user {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+
+        .userInfo {
+          display: flex;
+          flex-direction: column;
+
+          .username {
+            font-size: 13px;
+            font-weight: 600;
+          }
+
+          .email {
+            font-size: 10px;
+            font-weight: 400;
+          }
+        }
+      }
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+  button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: $light-color;
+    cursor: pointer;
+    opacity: 0.4;
+
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+}

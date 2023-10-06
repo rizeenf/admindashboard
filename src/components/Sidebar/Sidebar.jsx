@@ -1,7 +1,5 @@
 import "./Sidebar.scss";
 import { sidebar } from "../../data/sidebar";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 
 const Sidebar = () => {
   return (

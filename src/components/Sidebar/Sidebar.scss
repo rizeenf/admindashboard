@@ -1,9 +1,10 @@
 @import "../../variable.scss";
 
 .sidebar {
+  min-width: 170px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   border-right: 1px solid $second-dark-color;
   padding: 20px;
 
@@ -25,11 +26,11 @@
     .icon {
       width: 25px;
       height: 25px;
-      background-color: whitesmoke;
     }
 
     span {
       font-weight: 400;
+      height: 25px;
     }
   }
 }
