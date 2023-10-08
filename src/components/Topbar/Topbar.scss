@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 
     span {
       color: $text-color;
@@ -27,12 +28,18 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
 
     .notification {
       position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
+
+      &:hover {
+        background-color: rgba($second-dark-color, 0.7);
+        border-radius: 5px;
+      }
 
       span {
         color: $dark-color;
@@ -56,6 +63,11 @@
       justify-content: center;
       align-items: center;
       gap: 5px;
+
+      &:hover {
+        background-color: rgba($second-dark-color, 0.7);
+        border-radius: 5px;
+      }
 
       img {
         height: 25px;

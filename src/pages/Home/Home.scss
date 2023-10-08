@@ -6,14 +6,20 @@
 
   .home {
     display: grid;
-    gap: 15px;
+    gap: 5px;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(170px, auto);
+    grid-auto-rows: minmax(180px, auto);
 
     .box {
       padding: 20px;
       border: 1px solid $second-dark-color;
       border-radius: 5px;
+      opacity: 0.9;
+
+      &:hover {
+        opacity: 1;
+        background-color: rgba($second-dark-color, 0.5);
+      }
     }
 
     .box1 {

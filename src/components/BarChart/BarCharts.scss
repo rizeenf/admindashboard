@@ -1,0 +1,16 @@
+.barCharts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .chart {
+    height: 100%;
+    width: 100%;
+  }
+}

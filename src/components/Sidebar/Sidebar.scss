@@ -23,6 +23,11 @@
     font-size: 14px;
     text-transform: capitalize;
 
+    &:hover {
+      background-color: rgba($second-dark-color, 0.7);
+      border-radius: 5px;
+    }
+
     .icon {
       width: 25px;
       height: 25px;
@@ -30,7 +35,6 @@
 
     span {
       font-weight: 400;
-      height: 25px;
     }
   }
 }

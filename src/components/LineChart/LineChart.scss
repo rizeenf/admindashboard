@@ -1,0 +1,58 @@
+.totalUser {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .textInfo {
+    height: 100%;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 5px;
+
+      h1 {
+        font-size: 20px;
+      }
+    }
+
+    .detail {
+      font-size: 24px;
+    }
+    .link {
+      font-size: 14px;
+    }
+  }
+
+  .chartInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex: 2;
+    .chart {
+      height: 100%;
+      width: 100%;
+    }
+
+    .desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3px;
+      text-align: right;
+      font-size: 14px;
+
+      .percentage {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+}
