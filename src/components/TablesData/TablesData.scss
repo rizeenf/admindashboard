@@ -1,4 +1,10 @@
 .tablesData {
+  width: 99%;
+  height: 100%;
+
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
   .dataGrid {
     background: rgba($color: #fafafa, $alpha: 1);
 

@@ -6,7 +6,7 @@ const TablesData = (props) => {
   const Action = {
     field: "action",
     headerName: "Action",
-    width: 130,
+    width: 60,
     renderCell: (params) => {
       return (
         <div className="action">
@@ -36,7 +36,7 @@ const TablesData = (props) => {
             paginationModel: { page: 0, pageSize: 10 },
           },
         }}
-        pageSizeOptions={[5, 10, 50, 100]}
+        pageSizeOptions={[5, 10, 25, 50, 100]}
         slots={{ toolbar: GridToolbar }}
         slotProps={{
           toolbar: {

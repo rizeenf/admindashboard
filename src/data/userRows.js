@@ -4,7 +4,6 @@ export const userRows = [
     lastName: "Snow",
     firstName: "Jon",
     email: "Snow@gmail.com",
-
     age: 35,
     img: "https://images.pexels.com/photos/13884280/pexels-photo-13884280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     status: true,
@@ -14,7 +13,6 @@ export const userRows = [
     lastName: "Lannister",
     firstName: "Cersei",
     email: "LannisterCersei@gmail.com",
-
     age: 42,
     img: "https://images.pexels.com/photos/9941033/pexels-photo-9941033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },

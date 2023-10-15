@@ -7,6 +7,7 @@ import Users from "./pages/Users/Users";
 import Topbar from "./components/Topbar/Topbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
+import Orders from "./pages/Orders/Orders";
 
 function App() {
   const Layout = () => {
@@ -42,6 +43,10 @@ function App() {
         {
           path: "/profile",
           element: <Profile />,
+        },
+        {
+          path: "/orders",
+          element: <Orders />,
         },
       ],
     },

@@ -44,7 +44,7 @@ export const sidebar = [
         id: 4,
         title: "posts",
         icon: "post2.svg",
-        link: "posts",
+        link: "/",
       },
     ],
   },
