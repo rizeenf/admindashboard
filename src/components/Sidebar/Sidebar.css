@@ -1,0 +1,33 @@
+.sidebar {
+  min-width: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid #183d3d;
+  padding: 20px;
+}
+.sidebar .title {
+  color: #93b1a6;
+  font-size: 10px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.sidebar .listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.sidebar .listItem:hover {
+  background-color: rgba(24, 61, 61, 0.7);
+  border-radius: 5px;
+}
+.sidebar .listItem .icon {
+  width: 25px;
+  height: 25px;
+}
+.sidebar .listItem span {
+  font-weight: 400;
+}/*# sourceMappingURL=Sidebar.css.map */

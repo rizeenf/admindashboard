@@ -1,0 +1,58 @@
+.topDonate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.topDonate h1 {
+  font-size: 20px;
+}
+.topDonate .listDonator {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.topDonate .listDonator .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.topDonate .listDonator .list:hover {
+  background-color: rgba(24, 61, 61, 0.7);
+  border-radius: 10px;
+}
+.topDonate .listDonator .list .user {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.topDonate .listDonator .list .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.topDonate .listDonator .list .user .userInfo {
+  display: flex;
+  flex-direction: column;
+}
+.topDonate .listDonator .list .user .userInfo .username {
+  font-size: 13px;
+  font-weight: 600;
+}
+.topDonate .listDonator .list .user .userInfo .email {
+  font-size: 10px;
+  font-weight: 400;
+}
+.topDonate .listDonator .list span {
+  font-weight: 600;
+}
+.topDonate button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #93b1a6;
+  cursor: pointer;
+  opacity: 0.4;
+}
+.topDonate button:hover {
+  background-color: #5c8374;
+}/*# sourceMappingURL=TopDonate.css.map */

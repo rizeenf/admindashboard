@@ -48,9 +48,9 @@ const data = [
   },
   {
     name: "Page G",
-    uv: 3490,
-    pv: 4300,
-    amt: 2100,
+    uv: 4490,
+    pv: 5300,
+    amt: 3100,
   },
 ];
 

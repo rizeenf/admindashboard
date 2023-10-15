@@ -1,0 +1,31 @@
+.tablesData {
+  .dataGrid {
+    background: rgba($color: #fafafa, $alpha: 1);
+
+    .MuiDataGrid-toolbarContainer {
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 5px 20px;
+    }
+
+    .img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .action {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      justify-content: flex-end;
+      cursor: pointer;
+    }
+  }
+}

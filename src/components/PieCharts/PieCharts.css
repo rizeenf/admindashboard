@@ -1,0 +1,36 @@
+.pieCharts {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pieCharts h1 {
+  font-size: 20px;
+}
+.pieCharts .chart {
+  height: 100%;
+  width: 100%;
+}
+.pieCharts .desc {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.pieCharts .desc .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pieCharts .desc .items .label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.pieCharts .desc .items .label .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}/*# sourceMappingURL=PieCharts.css.map */
