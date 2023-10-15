@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.footer .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer .info {
+  font-size: 12px;
+  font-weight: 400;
+}/*# sourceMappingURL=Footer.css.map */

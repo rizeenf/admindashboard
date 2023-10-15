@@ -1,0 +1,73 @@
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.topbar .logo {
+  color: rgb(255, 255, 80);
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.topbar .logo span {
+  color: #fff;
+}
+.topbar .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.topbar .info .notification {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar .info .notification:hover {
+  background-color: rgba(24, 61, 61, 0.7);
+  border-radius: 5px;
+}
+.topbar .info .notification span {
+  color: #040d12;
+  background-color: yellow;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar .info .userInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.topbar .info .userInfo:hover {
+  background-color: rgba(24, 61, 61, 0.7);
+  border-radius: 5px;
+}
+.topbar .info .userInfo img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.topbar .info .userInfo span {
+  font-size: 14px;
+}/*# sourceMappingURL=Topbar.css.map */

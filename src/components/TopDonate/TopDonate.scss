@@ -56,12 +56,13 @@
       }
     }
   }
-  button {
+  .button {
     padding: 5px;
     border-radius: 5px;
     background-color: $light-color;
+    color: #fff;
     cursor: pointer;
-    opacity: 0.4;
+    text-align: center;
 
     &:hover {
       background-color: $primary-color;

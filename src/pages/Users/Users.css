@@ -1,0 +1,18 @@
+.users {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+.users .title {
+  margin-bottom: 10px;
+}
+.users .title h2 {
+  font-weight: 500;
+}
+.users .tables {
+  width: 100%;
+  height: 90%;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}/*# sourceMappingURL=Users.css.map */

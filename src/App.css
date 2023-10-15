@@ -1,0 +1,8 @@
+.app {
+  background-color: #040d12;
+  color: #fff;
+}
+.app .container {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=App.css.map */

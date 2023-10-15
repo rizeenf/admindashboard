@@ -1,5 +1,6 @@
 import "./TopDonate.scss";
 import { topDonators } from "../../data/sidebar";
+import { Link } from "react-router-dom";
 
 const TopDonate = () => {
   return (
@@ -19,7 +20,9 @@ const TopDonate = () => {
           </div>
         ))}
       </div>
-      <button>See others</button>
+      <Link className="button" to={"users"}>
+        See others
+      </Link>
     </div>
   );
 };
