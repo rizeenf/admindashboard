@@ -4,20 +4,23 @@ import "./App.scss";
 // import Profile from "./pages/Profile/Profile";
 // import Users from "./pages/Users/Users";
 // import Orders from "./pages/Orders/Orders";
-import Home from "./pages/Home/Home";
+// import Home from "./pages/Home/Home";
 import Topbar from "./components/Topbar/Topbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
 import { Suspense, lazy } from "react";
+import Loading from "./components/Loading/Loading";
 
+const Home = lazy(() => delayLazy(import("./pages/Home/Home")));
 const Users = lazy(() => delayLazy(import("./pages/Users/Users")));
+const User = lazy(() => delayLazy(import("./pages/User/User")));
 const Profile = lazy(() => delayLazy(import("./pages/Profile/Profile")));
 const Orders = lazy(() => delayLazy(import("./pages/Orders/Orders")));
 const Products = lazy(() => delayLazy(import("./pages/Products/Products")));
 
 const delayLazy = (promise) => {
   return new Promise((resolve) => {
-    setTimeout(resolve, 300);
+    setTimeout(resolve, 200);
   }).then(() => promise);
 };
 
@@ -28,7 +31,7 @@ function App() {
         <Topbar />
         <div className="container">
           <Sidebar />
-          <Suspense loading="Loading..">
+          <Suspense fallback={<Loading />}>
             <Outlet />
           </Suspense>
         </div>
@@ -61,6 +64,10 @@ function App() {
         {
           path: "/orders",
           element: <Orders />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
         },
       ],
     },

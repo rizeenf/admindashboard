@@ -1,9 +1,13 @@
+import { Suspense, useState } from "react";
+import Add from "../../components/Add/Add";
 import TablesData from "../../components/TablesData/TablesData";
 import { userRows } from "../../data/userRows";
 import "./Users.scss";
 import SpaceDashboardOutlinedIcon from "@mui/icons-material/SpaceDashboardOutlined";
 
 const Users = () => {
+  const [openAdd, setOpenAdd] = useState(false);
+
   const columns = [
     { field: "id", headerName: "No", width: 70 },
     {
@@ -61,8 +65,14 @@ const Users = () => {
         <button>Add Users</button>
       </div>
       <div className="tables">
-        <TablesData slug={"user"} columns={columns} rows={userRows} />
+        <TablesData slug={"users"} columns={columns} rows={userRows} />
       </div>
+
+      {openAdd ? (
+        <Add slug="user" setOpenAdd={setOpenAdd} columns={columns} />
+      ) : (
+        ""
+      )}
     </div>
   );
 };

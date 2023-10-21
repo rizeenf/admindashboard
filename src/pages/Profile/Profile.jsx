@@ -1,7 +1,7 @@
 import "./Profile.scss";
 
 const Profile = () => {
-  return <div>Profile</div>;
+  return <div className="profile"></div>;
 };
 
 export default Profile;

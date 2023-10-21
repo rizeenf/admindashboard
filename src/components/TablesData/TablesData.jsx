@@ -10,7 +10,7 @@ const TablesData = (props) => {
     renderCell: (params) => {
       return (
         <div className="action">
-          <Link to={`../${props.slug}/${params.row.id}`}>
+          <Link className="view" to={`../${props.slug}/${params.row.id}`}>
             <img src="/view.svg" alt="" />
           </Link>
           <div className="delete" onClick={() => handleDelete(params.row)}>

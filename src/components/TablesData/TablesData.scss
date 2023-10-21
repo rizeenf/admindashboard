@@ -31,7 +31,16 @@
       flex-direction: row;
       gap: 5px;
       justify-content: flex-end;
+      outline: none;
       cursor: pointer;
+
+      .view:hover {
+        opacity: 0.6;
+      }
+
+      .delete:hover {
+        opacity: 0.6;
+      }
     }
   }
 }

@@ -1,3 +1,42 @@
+export const orderColumns = [
+  {
+    field: "id",
+    headerName: "No",
+    width: 70,
+  },
+  {
+    field: "orderId",
+    headerName: "Order ID",
+    width: 180,
+  },
+  {
+    field: "itemName",
+    headerName: "Item Name",
+    width: 230,
+  },
+  {
+    field: "qty",
+    headerName: "Qty",
+    type: "number",
+    width: 90,
+  },
+  {
+    field: "price",
+    headerName: "Price",
+    width: 90,
+  },
+  {
+    field: "buyer",
+    headerName: "Full Name",
+    width: 160,
+  },
+  {
+    field: "address",
+    headerName: "Address",
+    width: 250,
+  },
+];
+
 export const orderRows = [
   {
     id: 1,

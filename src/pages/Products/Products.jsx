@@ -1,8 +1,12 @@
 import "./Products.scss";
 import TablesData from "../../components/TablesData/TablesData";
 import { productRows } from "../../data/productRows";
+import { useState } from "react";
+import Add from "../../components/Add/Add";
 
 const Products = () => {
+  const [openAdd, setOpenAdd] = useState(false);
+
   const columns = [
     { field: "id", headerName: "No", width: 70 },
     {
@@ -49,11 +53,16 @@ const Products = () => {
     <div className="products">
       <div className="title">
         <h2>Products Data</h2>
-        <button>Add product</button>
+        <button onClick={() => setOpenAdd(true)}>Add product</button>
       </div>
       <div className="tables">
         <TablesData slug={"product"} columns={columns} rows={productRows} />
       </div>
+      {openAdd ? (
+        <Add slug="product" setOpenAdd={setOpenAdd} columns={columns} />
+      ) : (
+        ""
+      )}
     </div>
   );
 };
