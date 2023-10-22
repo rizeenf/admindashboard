@@ -14,7 +14,7 @@ const Orders = () => {
         <button onClick={() => setOpenAdd(true)}>Add Orders</button>
       </div>
       <div className="tables">
-        <TablesData slug={"order"} columns={orderColumns} rows={orderRows} />
+        <TablesData slug={"orders"} columns={orderColumns} rows={orderRows} />
       </div>
 
       {openAdd ? (

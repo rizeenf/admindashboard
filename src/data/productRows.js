@@ -1,3 +1,65 @@
+export const dataSingleProduct = {
+  id: 1,
+  img: "https://images.pexels.com/photos/12380741/pexels-photo-12380741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  fullName: "X Box - X Series Controller",
+  category: "Gaming equipment",
+  stocks: "509 units",
+  price: "$ 5146",
+  description:
+    "Video gaming brand created and owned by Microsoft. The brand consists of five video game consoles, as well as applications (games)",
+  activities: [
+    {
+      id: 1,
+      activity: "Other diagnostic procedures on oral cavity",
+      time: "8:35",
+      timeDate: "05-Jan-2023",
+    },
+    {
+      id: 2,
+      activity: "Stretching of muscle or tendon",
+      time: "12:03",
+      timeDate: "17-Jun-2023",
+    },
+    {
+      id: 3,
+      activity: "Excision of lesion or tissue of diaphragm",
+      time: "13:03",
+      timeDate: "04-Nov-2022",
+    },
+    {
+      id: 4,
+      activity: "Other specified instrumental delivery",
+      time: "9:28",
+      timeDate: "14-Aug-2023",
+    },
+    {
+      id: 5,
+      activity: "Mastotomy",
+      time: "10:38",
+      timeDate: "03-Jul-2023",
+    },
+    {
+      id: 6,
+      activity: "Other operations on lung",
+      time: "9:59",
+      timeDate: "13-Jun-2023",
+    },
+    {
+      id: 7,
+      activity: "Prophylactic administration of vaccine against other diseases",
+      time: "7:02",
+      timeDate: "04-Sep-2023",
+    },
+    {
+      id: 8,
+      activity:
+        "Open reduction of fracture without internal fixation, unspecified site",
+      time: "7:35",
+      timeDate: "13-Aug-2023",
+    },
+  ],
+};
+
 export const productRows = [
   {
     id: 1,

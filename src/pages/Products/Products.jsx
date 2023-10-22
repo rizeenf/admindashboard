@@ -56,7 +56,7 @@ const Products = () => {
         <button onClick={() => setOpenAdd(true)}>Add product</button>
       </div>
       <div className="tables">
-        <TablesData slug={"product"} columns={columns} rows={productRows} />
+        <TablesData slug={"products"} columns={columns} rows={productRows} />
       </div>
       {openAdd ? (
         <Add slug="product" setOpenAdd={setOpenAdd} columns={columns} />

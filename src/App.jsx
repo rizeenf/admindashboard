@@ -3,8 +3,11 @@ import "./App.scss";
 // import Products from "./pages/Products/Products";
 // import Profile from "./pages/Profile/Profile";
 // import Users from "./pages/Users/Users";
+// import User from "./pages/User/User";
 // import Orders from "./pages/Orders/Orders";
+// import Order from "./pages/Order/Order";
 // import Home from "./pages/Home/Home";
+// import Product from "./pages/Product/Product";
 import Topbar from "./components/Topbar/Topbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
@@ -16,7 +19,9 @@ const Users = lazy(() => delayLazy(import("./pages/Users/Users")));
 const User = lazy(() => delayLazy(import("./pages/User/User")));
 const Profile = lazy(() => delayLazy(import("./pages/Profile/Profile")));
 const Orders = lazy(() => delayLazy(import("./pages/Orders/Orders")));
+const Order = lazy(() => delayLazy(import("./pages/Order/Order")));
 const Products = lazy(() => delayLazy(import("./pages/Products/Products")));
+const Product = lazy(() => delayLazy(import("./pages/Product/Product")));
 
 const delayLazy = (promise) => {
   return new Promise((resolve) => {
@@ -68,6 +73,14 @@ function App() {
         {
           path: "/users/:id",
           element: <User />,
+        },
+        {
+          path: "/products/:id",
+          element: <Product />,
+        },
+        {
+          path: "/orders/:id",
+          element: <Order />,
         },
       ],
     },

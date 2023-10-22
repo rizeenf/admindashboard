@@ -1,3 +1,103 @@
+export const dataSingleUser = {
+  id: 1,
+  img: "https://images.pexels.com/photos/13884280/pexels-photo-13884280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  fullName: "Shanon Fausset",
+  username: "sfausset0",
+  email: "sfausset0@chron.com",
+  phone: "(617) 3878811",
+  age: 46,
+  active: false,
+  activities: [
+    {
+      id: 1,
+      activity: "Other diagnostic procedures on oral cavity",
+      time: "8:35",
+      timeDate: "05-Jan-2023",
+    },
+    {
+      id: 2,
+      activity: "Stretching of muscle or tendon",
+      time: "12:03",
+      timeDate: "17-Jun-2023",
+    },
+    {
+      id: 3,
+      activity: "Excision of lesion or tissue of diaphragm",
+      time: "13:03",
+      timeDate: "04-Nov-2022",
+    },
+    {
+      id: 4,
+      activity: "Other specified instrumental delivery",
+      time: "9:28",
+      timeDate: "14-Aug-2023",
+    },
+    {
+      id: 5,
+      activity: "Mastotomy",
+      time: "10:38",
+      timeDate: "03-Jul-2023",
+    },
+    {
+      id: 6,
+      activity: "Other operations on lung",
+      time: "9:59",
+      timeDate: "13-Jun-2023",
+    },
+    {
+      id: 7,
+      activity: "Prophylactic administration of vaccine against other diseases",
+      time: "7:02",
+      timeDate: "04-Sep-2023",
+    },
+    {
+      id: 8,
+      activity:
+        "Open reduction of fracture without internal fixation, unspecified site",
+      time: "7:35",
+      timeDate: "13-Aug-2023",
+    },
+  ],
+};
+
+export const chartSingleUsers = [
+  {
+    day: "Son day",
+    loginCount: 4406,
+    registerCount: 2213,
+  },
+  {
+    day: "Mom day",
+    loginCount: 3142,
+    registerCount: 735,
+  },
+  {
+    day: "Ties day",
+    loginCount: 4083,
+    registerCount: 2858,
+  },
+  {
+    day: "Wellnesday",
+    loginCount: 3404,
+    registerCount: 364,
+  },
+  {
+    day: "Thirs day",
+    loginCount: 3166,
+    registerCount: 1376,
+  },
+  {
+    day: "Fry day",
+    loginCount: 4676,
+    registerCount: 1079,
+  },
+  {
+    day: "Sad ur day",
+    loginCount: 4329,
+    registerCount: 1819,
+  },
+];
+
 export const userRows = [
   {
     id: 1,
