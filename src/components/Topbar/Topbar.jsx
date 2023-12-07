@@ -15,8 +15,8 @@ const Topbar = () => {
       </div>
       <div className="info">
         <SearchOutlinedIcon fontSize="small" />
-        <GridViewOutlinedIcon fontSize="small" />
-        <CropFreeOutlinedIcon fontSize="small" />
+        <GridViewOutlinedIcon fontSize="small" className="notification" />
+        <CropFreeOutlinedIcon fontSize="small" className="notification" />
         <div className="notification">
           <NotificationsOutlinedIcon fontSize="small" />
           <span>3</span>

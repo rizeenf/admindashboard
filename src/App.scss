@@ -3,6 +3,7 @@
 .app {
   background-color: $dark-color;
   color: $text-color;
+  min-height: 100svh;
 
   .container {
     display: flex;

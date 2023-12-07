@@ -1,13 +1,5 @@
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.scss";
-// import Products from "./pages/Products/Products";
-// import Profile from "./pages/Profile/Profile";
-// import Users from "./pages/Users/Users";
-// import User from "./pages/User/User";
-// import Orders from "./pages/Orders/Orders";
-// import Order from "./pages/Order/Order";
-// import Home from "./pages/Home/Home";
-// import Product from "./pages/Product/Product";
 import Topbar from "./components/Topbar/Topbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";

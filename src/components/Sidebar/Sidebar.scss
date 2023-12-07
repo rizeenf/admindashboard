@@ -1,28 +1,49 @@
 @import "../../variable.scss";
+@import "../../responsive.scss";
 
 .sidebar {
-  min-width: 170px;
+  // min-width: 170px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   border-right: 1px solid $second-dark-color;
   padding: 20px;
 
+  @include sm {
+    min-width: max-content;
+  }
+
+  @include lg {
+    min-width: 160px;
+  }
+
+  @include xl {
+    min-width: 200px;
+  }
+
   .title {
     color: $light-color;
     font-size: 10px;
     margin: 10px 0;
     text-transform: uppercase;
+
+    @include sm {
+      display: none;
+    }
+
+    @include lg {
+      display: block;
+    }
   }
 
   .listItem {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     font-size: 14px;
     text-transform: capitalize;
-
+    margin: 10px 0;
     &:hover {
       background-color: rgba($second-dark-color, 0.7);
       border-radius: 5px;
@@ -35,6 +56,13 @@
 
     span {
       font-weight: 400;
+
+      @include sm {
+        display: none;
+      }
+      @include lg {
+        display: block;
+      }
     }
   }
 }
